@@ -1,1 +1,50 @@
-"<h1>Salom, GitHub!</h1>" 
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Toyxona Buyurtma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Toyxona buyurtma shakli</h2>
+    <form id="bookingForm">
+      <label>Ism:</label>
+      <input type="text" id="name" required>
+
+      <label>Telefon:</label>
+      <input type="text" id="phone" required>
+
+      <label>Odam soni:</label>
+      <input type="number" id="people" required>
+
+      <label>Sana:</label>
+      <input type="date" id="date" required>
+
+      <label for="comment">Izohingiz (qo‘shimcha talablar):</label><br>
+<textarea id="comment" name="comment" rows="4" cols="50" placeholder="Masalan: maxsus dekor, xizmat va h.k."></textarea>
+
+
+      <h3>Qo'shimcha xizmatlar</h3>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="services" value="AFARMILENIYA" > AFARMILENIYA</label>
+        <label><input type="checkbox" name="services" value="DEJERNIY SASTAV (ASL SHOU)" > DEJERNIY SASTAV (ASL SHOU)</label>
+        <label><input type="checkbox" name="services" value="FOTO VIDEO (CAMERON)" > FOTO VIDEO (CAMERON)</label>
+        <label><input type="checkbox" name="services" value="KARNAY-SURNAY" > KARNAY-SURNAY</label>
+        <label><input type="checkbox" name="services" value="GUL" > GUL</label>
+        <label><input type="checkbox" name="services" value="TUMAN KRISH" > TUMAN KRISH</label>
+        <label><input type="checkbox" name="services" value="TUMAN VALS" > TUMAN VALS</label>
+        <label><input type="checkbox" name="services" value="KARTEJ RANGE" > KARTEJ RANGE</label>
+        <label><input type="checkbox" name="services" value="KARTEJ VITO" > KARTEJ VITO</label>
+        <label><input type="checkbox" name="services" value="RAQQOSALAR" > RAQQOSALAR</label>
+        <label><input type="checkbox" name="services" value="AYLANISH" > AYLANISH</label>
+        <label><input type="checkbox" name="services" value="SALUT PORX 2TA" >SALUT PORX 2TA</label> 
+        <label><input type="checkbox" name="services" value="SALUT PORX 4TA" >SALUT PORX 4TA</label> 
+      </div>
+
+      <button type="submit">Yuborish</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
