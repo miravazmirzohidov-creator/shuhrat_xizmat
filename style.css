@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, button {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
